@@ -28,8 +28,15 @@ const Banner = () => {
           Check out the most effective exercises
         </Typography>
         <Button
-          variant="contained"
-          sx={{ backgroundColor: "#FF2526" }}
+          sx={{
+            backgroundColor: "#FF2625",
+            border: "2px solid #FF2625",
+            color: "#ffffff",
+            "&:hover": { color: "#000000" },
+            width: "max-content",
+            padding: "24px",
+            height: "40px",
+          }}
           href="#exercises"
         >
           Explore exercises
